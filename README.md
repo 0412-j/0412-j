@@ -154,7 +154,7 @@ int main() {
 	cout << "nhap x ";
 	cin >> x;
 	/*Ở đây, lấy ví dụ cho mọi người dễ hiểu thì i=1, 	p=x, 		s=sqrt(x)
-						     i=2, 	p=x*x=x^2,	s=sqrt(x^2+sqrt(x)*/
+						     i=2, 	p=x*x=x^2,	s=sqrt(x^2+sqrt(x))*/
 	for (int i = 1; i <= n; i++)
 	{
 		p *= x;
@@ -268,7 +268,7 @@ int main() {
 ![10](https://user-images.githubusercontent.com/93541353/139990121-1a4f3ee4-5fe9-4f22-a7b3-8fc1e896dbb9.PNG)
 ## Ý tưởng 
 * Cũng giống bài trên, vì đây là bài có tính kiểm tra đúng sai nên em sẽ sử dụng 1 biến bool để lưu kết quả
-* Số có dạng 5^m=5*5*5...*5, Ví dụ: 5^1=5, 5^2=5*5, 5^3=5*5*5,...
+* Số có dạng 5^m=5x5x5...x5, Ví dụ: 5^1=5, 5^2=5x5, 5^3=5x5x5,...
 * Từ đó ta thấy được bài này có thể xử lí được bằng vòng lặp, tuy nhiên lần này ta sẽ thay đổi 1 chút, sau mỗi lần lặp thì i*=5
 ## Code
 ```
