@@ -40,7 +40,7 @@ Thử áp dụng với x^100:
 			3  dư   0
 			1  dư   1
 ```
-Vậy muốn tính x^11 có tổi thiểu 8 phép nhân: trước tiên cần có x^2, đến x^3, x^6, x^12, x^13, x^25, x^50 sau cùng là x^100
+Vậy muốn tính x^100 có tổi thiểu 8 phép nhân: trước tiên cần có x^2, đến x^3, x^6, x^12, x^13, x^25, x^50 sau cùng là x^100
 ___
 # Bài 2
 ![2](https://user-images.githubusercontent.com/93541353/139987236-498d1f50-78e8-4f3e-93bc-aedca161e013.PNG)
