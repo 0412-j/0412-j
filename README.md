@@ -1,4 +1,5 @@
-# Bài 1
+# Bài 1 
+![1](https://user-images.githubusercontent.com/93541353/139986492-9f01c81e-78b0-48b2-bbcb-1ee0bba84fe6.PNG)
 ## Ý tưởng: 
 * Muốn tính x^11 với số phép nhân tối thiểu cẩn có x^5 và x^6
 * Để có được điều đó trước tiên cần x^3 và x^2
@@ -42,6 +43,7 @@ Thử áp dụng với x^100:
 Vậy muốn tính x^11 có tổi thiểu 8 phép nhân: trước tiên cần có x^2, đến x^3, x^6, x^12, x^13, x^25, x^50 sau cùng là x^100
 ___
 # Bài 2
+![2](https://user-images.githubusercontent.com/93541353/139987236-498d1f50-78e8-4f3e-93bc-aedca161e013.PNG)
 ## Ý tưởng
 * Muốn tính tổng các chữ số trong n thì cần phải tách các chữ số của n và tạo một biến s để tính tổng bằng các số đã tách
 * Song song với tách số cần phải xóa chữ số cuối của n
@@ -69,6 +71,7 @@ int main() {
 }
 ```
 # Bài 3
+![3](https://user-images.githubusercontent.com/93541353/139987711-1f962068-e539-451a-b874-0da35d3cf310.PNG)
 ## Ý tưởng
 * Ta thấy số hạng sau thứ i tử sẽ nhân thêm vào 1 lần x (x^i) và mẫu sẽ lại cộng thêm vào 1 số i. 
 * Như vậy ta sẽ sử dụng vòng lặp để giải quyết bài toán này
@@ -97,6 +100,7 @@ int main() {
 }
 ```
 # Bài 4
+![4](https://user-images.githubusercontent.com/93541353/139993456-430421ea-6b1b-496b-923f-e24ce7566fed.PNG)
 ## Ý tưởng:
 * Nhìn vào đề bai ta dễ dàng nhận ra các phần tử trong dãy tuân theo 1 quy luật nhất định
 * Để dễ nhìn ta thử biến đổi phần tử tổng quát: (-1)^n*x^2n
@@ -129,6 +133,7 @@ int main() {
 }
 ```
 # Bài 5
+![5](https://user-images.githubusercontent.com/93541353/139993578-6d520d5f-6d89-4a54-9cf6-9568355c6656.PNG)
 ## Ý tưởng
 * Nhìn vào bài này ta sẽ cảm thấy nó có gì đó khó khăn 1 tí, nhưng thử theo 1 hướng nhìn khá khác bình thường 1 chút nào
 * Với bài này ta thử nhìn từ x ra đến x^n ta sẽ thấy nó cũng chỉ là 1 vòng lặp chạy từ 1 đến n
@@ -157,6 +162,7 @@ int main() {
 }
 ```
 # Bài 6
+![6](https://user-images.githubusercontent.com/93541353/139993894-949e06e6-59e5-457a-814a-ee4e3c8bdd9c.PNG)
 ## Ý tưởng
 * Theo em hiểu thì độ chính xác là 10^-6 thì số hạng cuối cùng của dãy phải >=10^-6, có nghĩa là 1/n>=10^-6
 * Tuy nhiên thì em muốn sử dụng vòng lặp for cho bài toán này nên em cần tìm điều kiện dừng của vòng lặp
@@ -176,6 +182,7 @@ int main() {
 }
 ```
 # Bài 7
+![7](https://user-images.githubusercontent.com/93541353/139989835-026a87dc-4b15-4533-aae8-275bb94f8ddc.PNG)
 ## Ý tưởng
 * Nhìn vào số hạng tổng quát ta nhận thấy phần tử phía sau có liên quan đến phía trước
 * Đồng thời trong thành phần của phần tử còn có dạng mũ
@@ -201,6 +208,7 @@ int main() {
 }
 ```
 # Bài 8
+![8](https://user-images.githubusercontent.com/93541353/139989920-ee736b14-8c4a-4a64-9453-4cd869243d00.PNG)
 ## Ý tưởng
 * Ở bài này em chỉ tìm 1 số tam giác đặc biệt như tam giác cân, tam giác đều, tam giác vuông và tam giác vuông cân
 ## Code
@@ -226,6 +234,7 @@ int main() {
 }
 ```
 # Bài 9
+![9](https://user-images.githubusercontent.com/93541353/139990036-d9ed8dd6-7e49-4191-b2cb-314f8cdbe57f.PNG)
 ## Ý tưởng 
 * Đây là 1 bài toán kiểm tra đúng sai nên thường em sẽ sử dụng biến bool để lưu trữ đáp án
 * Điều kiện để số a là số chính phương là tồn tại 1 số tự nhiên sao cho số tự nhiên đó bình phương lên sẽ bằng a
@@ -253,6 +262,7 @@ int main() {
 }
 ```
 # Bài 10
+![10](https://user-images.githubusercontent.com/93541353/139990121-1a4f3ee4-5fe9-4f22-a7b3-8fc1e896dbb9.PNG)
 ## Ý tưởng 
 * Cũng giống bài trên, vì đây là bài có tính kiểm tra đúng sai nên em sẽ sử dụng 1 biến bool để lưu kết quả
 * Số có dạng 5^m=5*5*5...*5, Ví dụ: 5^1=5, 5^2=5*5, 5^3=5*5*5,...
