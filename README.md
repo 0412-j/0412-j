@@ -73,7 +73,7 @@ int main() {
 # Bài 3
 ![3](https://user-images.githubusercontent.com/93541353/139987711-1f962068-e539-451a-b874-0da35d3cf310.PNG)
 ## Ý tưởng
-* Ta thấy số hạng sau thứ i tử sẽ nhân thêm vào 1 lần x (x^i) và mẫu sẽ lại cộng thêm vào 1 số i. 
+* Ta thấy số hạng sau thứ i tử sẽ nhân thêm vào i lần x (x^i) và mẫu sẽ lại cộng thêm vào 1 số i. Số mũ và dãy số ở mẫu có sự liên quan đến nhau
 * Như vậy ta sẽ sử dụng vòng lặp để giải quyết bài toán này
 ## Code
 ```
