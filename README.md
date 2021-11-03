@@ -168,8 +168,8 @@ int main() {
 ![6](https://user-images.githubusercontent.com/93541353/139993894-949e06e6-59e5-457a-814a-ee4e3c8bdd9c.PNG)
 ## Ý tưởng
 * Theo em hiểu thì độ chính xác là 10^-6 thì số hạng cuối cùng của dãy phải >=10^-6, có nghĩa là 1/n>=10^-6
-* Tuy nhiên thì em muốn sử dụng vòng lặp for cho bài toán này nên em cần tìm điều kiện dừng của vòng lặp
-* Điều kiện để kết thúc là 1/n<10^-6, đồng nghĩa với việc i>10^5
+* Để giải quyết bài này thì có thể dùng for hoặc while
+* Điều kiệu đúng của vòng lặp while là:1/n>=10^-6, và vòng lặp for là: n<=10^5 (hiểu đơn giản là chuyển vế của điều kiện trên)
 ## Code
 ```
 #include <iostream>
