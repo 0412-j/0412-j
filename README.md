@@ -103,9 +103,12 @@ int main() {
 ![4](https://user-images.githubusercontent.com/93541353/139993456-430421ea-6b1b-496b-923f-e24ce7566fed.PNG)
 ## Ý tưởng:
 * Nhìn vào đề bai ta dễ dàng nhận ra các phần tử trong dãy tuân theo 1 quy luật nhất định
-* Để dễ nhìn ta thử biến đổi phần tử tổng quát: (-1)^n*x^2n
+* Để dễ nhìn ta thử biến đổi phần tử tổng quát: 
+```
+						(-1)^n*x^2n
 					       =(-1)^n*(x^2)^n
 					       =(-x^2)^n
+```
 * Như vậy ta chỉ cần sử dụng vòng lặp for chạy từ 1 đến n là giải quyết được bài toán
 ## Code: 
 ```
