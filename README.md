@@ -60,7 +60,7 @@ int main() {
 		cout << "nhap n ";
 		cin >> n;
 	} while (n < 0);
-	//nếu n vẫn còn số (n!=0) thì ta sẽ cộng vào s chữ số cuối của n, sau đó chia lấy dư để loại số đó ra
+	//nếu n vẫn còn số (n!=0) thì ta sẽ cộng vào s chữ số cuối của n, sau đó chia lấy nguyên để loại số đó ra
 	while (n != 0) {
 		s += n % 10;
 		n /= 10;
