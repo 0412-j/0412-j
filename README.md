@@ -169,7 +169,7 @@ int main() {
 ## Ý tưởng
 * Theo em hiểu thì độ chính xác là 10^-6 thì số hạng cuối cùng của dãy phải >=10^-6, có nghĩa là 1/n>=10^-6
 * Để giải quyết bài này thì có thể dùng for hoặc while
-* Điều kiệu đúng của vòng lặp while là:1/n>=10^-6, và vòng lặp for là: n<=10^5 (hiểu đơn giản là chuyển vế của điều kiện trên)
+* Điều kiệu đúng của vòng lặp while là:1/n>=10^-6, và vòng lặp for là: n<=10^6 (hiểu đơn giản là chuyển vế của điều kiện trên)
 ## Code
 ```
 #include <iostream>
